@@ -1,0 +1,23 @@
+* {
+  box-sizing: boder-box;
+  /* includes padding and margin into the size of  */
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Karla;
+  text-align: center;
+}
+#color__div {
+  height: 100%;
+  background-color: aqua;
+}
+#color__name {
+  padding-top: 5em;
+}
+#color__hex {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}

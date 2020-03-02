@@ -1,0 +1,15 @@
+{
+  "name": "my-api",
+  "version": "1.0.0",
+  "description": "This is an in class exercise for DWD week 4.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christina Dacanay!",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "metal-name": "^1.3.1"
+  }
+}
