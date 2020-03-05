@@ -19,6 +19,12 @@
       <button id="rename-color">Rename Color</button>
     </div>
 
-    <script></script>
+    <script>
+      window.addEventListener("DOMContentLoaded", async () => {
+        console.log("boop");
+        const response = await fetch("/colors");
+        console.log(response);
+      });
+    </script>
   </body>
 </html>
